@@ -11,6 +11,7 @@ Feature: Mobile purchase validation
     And User navigates into new window and click on add to cart
     Then user validate the cart page
 
+@Data @1dim
   Scenario: Mobile validation one Dim list
     When User search mobiles by using one dim list
       | realme | iPhone | SAMSUNG |
